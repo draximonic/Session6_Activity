@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+#yellow {
+    background-color: #ffa503;
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.one {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000;
+}
+
+.two {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000;
+}
+
+.three {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid #000;
+}
+
+.four {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000;
+}
+
+.four > #yellow {
+    margin: 20px 0px;
+}
+
+.five {
+    display: flex;
+}
+
+.five-left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #000;
+}
+
+.five-right {
+    flex: 7;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid #000;
+    margin-left: -2px;
+}
+
+.five #yellow {
+    margin: 20px 0px;
+}
+
+.six-top{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid #000;
+}
+
+.six-bottom{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid #000;
+}
+
+footer {
+    text-align: center;
+}
